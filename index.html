@@ -1,12 +1,32 @@
+
 <!DOCTYPE html>
+<style>
+  .Absolute-Center {
+    height: 10%;
+    width: 7%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:mediumturquoise;
+    border-color:mediumturquoise;
+    cursor: pointer;
+    position: fixed;
+    z-index: 999;
+  }
+
+  .Center-Container {
+    position: relative;
+  }
+
+</style>
 <html>
-    <head>
-        <title> centered button </title>
-        <link rel="stylesheet" link href="style.css" type="text/css">
-    </head>
-        <body>
-            <div class="btn">
-                <button class="button">hello</button>
-            </div>
-        </body>
+  <body>
+    <div class="Center-Container">
+      <button class="Absolute-Center"></button>
+  </div>
+  </body>
 </html>
